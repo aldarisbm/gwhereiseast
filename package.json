@@ -29,6 +29,7 @@
     "react": "^16.3.2",
     "react-dom": "^16.3.2",
     "react-helmet": "^5.2.0",
+    "s3-deploy": "^1.2.0",
     "styled-components": "^3.3.3",
     "styled-normalize": "^8.0.0"
   },
@@ -53,6 +54,6 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "develop": "gatsby develop",
     "build": "gatsby build",
-    "deploy": "gatsby build --prefix-paths && gh-pages -d public"
+    "deploy": "gatsby build --prefix-paths && s3-deploy './public/**' --cwd './public/' --bucket [www.whereiseast.com]  --deleteRemoved --gzip && npm run clear",
   }
 }
