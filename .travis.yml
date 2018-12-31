@@ -2,7 +2,7 @@ nguage: node_js
 node_js:
 - 8.9.4
 install: yarn
-script: gatsby build
+script: npm run build
 deploy:
   provider: s3
   access_key_id: $AWS_KEY
