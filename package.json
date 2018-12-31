@@ -54,6 +54,6 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "develop": "gatsby develop",
     "build": "gatsby build",
-    "deploy": "gatsby build --prefix-paths && s3-deploy './public/**' --cwd './public/' --bucket [www.whereiseast.com]  --deleteRemoved --gzip && npm run clear",
+    "deploy": "gatsby build --prefix-paths && s3-deploy './public/**' --cwd './public/' --bucket [www.whereiseast.com]  --deleteRemoved --gzip && npm run clear"
   }
 }
