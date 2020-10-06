@@ -8,7 +8,7 @@ module.exports = {
   postsPerPage: 5, // Required
   social: {
     website: '',
-    github: '',
+    github: 'github.com/aldarisbm',
     twitter: '',
     linkedin: '',
   },
