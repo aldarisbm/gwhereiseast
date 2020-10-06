@@ -10,7 +10,7 @@ module.exports = {
     website: '',
     github: 'github.com/aldarisbm',
     twitter: '',
-    linkedin: '',
+    linkedin: 'linkedin.com/in/aldarisbm',
   },
   pathPrefix: '/blog',
   siteUrl: 'http://www.whereiseast.com',
