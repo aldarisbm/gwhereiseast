@@ -1,7 +1,7 @@
 module.exports = {
   title: 'Where Is East', // Required
-  author: 'anonymous', // Required
-  description: 'Academic, Mum, Aspiring Coder, Traveler, Mum',
+  author: 'Jose Berrio', // Required
+  description: 'technologist',
   primaryColor: '#3498db', // Required
   showHeaderImage: true,
   showShareButtons: true,
